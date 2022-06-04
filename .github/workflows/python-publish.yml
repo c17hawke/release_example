@@ -35,4 +35,4 @@ jobs:
           git config --global user.email "sunny.c17hawke@gmail.com"
           git add -A
           git commit -m "update current stats"
-          git push origin HEAD:main --force
+          git push
