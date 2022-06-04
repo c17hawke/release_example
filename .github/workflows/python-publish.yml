@@ -39,4 +39,4 @@ jobs:
         git config --global user.email "sunny.c17hawke@gmail.com"
         git add -A
         git commit -m "update with current release version"
-        git push    
+        git push origin main
