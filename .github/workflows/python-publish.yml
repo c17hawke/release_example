@@ -31,4 +31,4 @@ jobs:
     - name: Test
       run: |
         echo $RELEASE_VERSION
-        echo ${{ env.RELEASE_VERSION }}
+        echo $RELEASE_VERSION > .github/workflows/__version__
