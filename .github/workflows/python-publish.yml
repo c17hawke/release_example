@@ -32,3 +32,11 @@ jobs:
       run: |
         echo $RELEASE_VERSION
         echo $RELEASE_VERSION > .github/workflows/__version__
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "c17hawke"
+        git config --global user.email "sunny.c17hawke@gmail.com"
+        git add -A
+        git commit -m "update with current release version"
+        git push    
